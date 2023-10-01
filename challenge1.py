@@ -55,6 +55,7 @@ decrypted_flag = xor_crypt(key, bytes_to_bit_array(encrypted_flag))
 # Convert decrypted flag from bits to bytes and then to string
 decrypted_flag = bit_array_to_bytes(decrypted_flag).decode()
 
+# Decrypted flag: flag{Q-Site Rul3z!}
 print("Decrypted flag:", decrypted_flag)
 
 
